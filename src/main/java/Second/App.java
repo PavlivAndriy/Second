@@ -19,7 +19,10 @@ public class App
                 break FIRST_LOOP;
             }
         }
-        System.out.println("Some changes");
+        for (int i=0; i < 10; i++){
+            System.out.println("Some " + i +  " changes");
+        }
+
 
     }
 }
